@@ -1,0 +1,76 @@
+/* =========================================
+   READER MODE (Reading View)
+   ========================================= */
+
+.pretty-reader-active .markdown-rendered p {
+	text-indent: 2em;
+	margin-block-start: 0 !important;
+	margin-block-end: 0 !important;
+}
+
+.pretty-reader-active .markdown-rendered p br {
+	display: block;
+	content: '';
+	margin-top: 0;
+}
+
+/* =========================================
+   EDITOR MODE (Live Preview)
+   ========================================= */
+
+.pretty-editor-active .markdown-source-view.mod-cm6 .cm-line {
+	text-indent: 0;
+}
+
+.pretty-editor-active
+	.markdown-source-view.mod-cm6
+	.cm-content
+	> .cm-line:first-child {
+	text-indent: 2em;
+}
+
+.pretty-editor-active
+	.markdown-source-view.mod-cm6
+	.cm-line:has(> br:only-child)
+	+ .cm-line {
+	text-indent: 2em;
+}
+
+.pretty-editor-active
+	.markdown-source-view.mod-cm6
+	.cm-line:has(> br:only-child) {
+	line-height: 0;
+	padding: 0 !important;
+	color: transparent;
+}
+
+.pretty-editor-active
+	.markdown-source-view.mod-cm6
+	.cm-line:has(> br:only-child)
+	+ .cm-line:has(> br:only-child) {
+	line-height: normal;
+}
+
+.pretty-editor-active
+	.markdown-source-view.mod-cm6
+	.cm-active:has(> br:only-child) {
+	line-height: normal;
+}
+
+/* =========================================
+   JUSTIFY TEXT
+   ========================================= */
+
+/* For Reading View */
+.pretty-paragraphs-justify.pretty-reader-active .markdown-rendered p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/* For Editor/Live Preview */
+.pretty-paragraphs-justify.pretty-editor-active
+	.markdown-source-view.mod-cm6
+	.cm-line {
+	text-align: justify;
+	text-justify: inter-word;
+}
