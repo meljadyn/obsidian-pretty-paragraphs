@@ -2,7 +2,7 @@
 	"id": "pretty-paragraphs",
 	"name": "Pretty Paragraphs",
 	"version": "0.1.0",
-	"minAppVersion": "1.13.0",
+	"minAppVersion": "1.12.7",
 	"description": "Styles paragrpahs as block-indented paragraphs in the style of a novel: indents first lines and collapses double-spaced paragraph breaks.",
 	"author": "meljadyn",
 	"authorUrl": "https://github.com/meljadyn",
