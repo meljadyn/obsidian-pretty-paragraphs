@@ -32,7 +32,7 @@ BRAT is the easiest way to install and update plugins hosted on GitHub.
 2. **Add the Plugin:** \* Open the BRAT settings page.
 
 - Click **"Add Beta plugin"**.
-- Paste the GitHub repository URL (e.g., `your-github-username/your-repo-name`).
+- Paste the GitHub repository URL - https://github.com/meljadyn/obsidian-pretty-paragraphs.
 - Click **"Add Plugin"**.
 
 3. **Update:** BRAT will now handle the installation and check for updates automatically.
