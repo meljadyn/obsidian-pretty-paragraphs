@@ -13,9 +13,7 @@ settings:
 		format: em
 */
 
-/* =========================================
-   READER MODE (Reading View)
-   ========================================= */
+/* Reading View */
 
 .pretty-reader-active .markdown-rendered p {
 	text-indent: var(--custom-indent-size, 2em);
@@ -29,9 +27,11 @@ settings:
 	margin-top: 0;
 }
 
-/* =========================================
-   EDITOR MODE (Live Preview)
-   ========================================= */
+.pretty-paragraphs-justify.pretty-reader-active .markdown-rendered p {
+	text-align: justify;
+}
+
+/* Editor View */
 
 .pretty-editor-active .markdown-source-view.mod-cm6 .cm-line {
 	text-indent: 0;
@@ -72,20 +72,8 @@ settings:
 	line-height: normal;
 }
 
-/* =========================================
-   JUSTIFY TEXT
-   ========================================= */
-
-/* For Reading View */
-.pretty-paragraphs-justify.pretty-reader-active .markdown-rendered p {
-	text-align: justify;
-	text-justify: inter-word;
-}
-
-/* For Editor/Live Preview */
 .pretty-paragraphs-justify.pretty-editor-active
 	.markdown-source-view.mod-cm6
 	.cm-line {
 	text-align: justify;
-	text-justify: inter-word;
 }
