@@ -1,6 +1,6 @@
 {
 	"name": "pretty-paragraphs",
-	"version": "1.0.0",
+	"version": "0.2.6",
 	"description": "Formats notes into block-indented classic paragraphs: indents first lines and collapses double-spaced paragraph breaks.",
 	"main": "main.js",
 	"type": "module",
