@@ -1,7 +1,7 @@
 {
 	"id": "pretty-paragraphs",
 	"name": "Pretty Paragraphs",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"minAppVersion": "1.12.7",
 	"description": "Styles paragraphs to be indented in the style of a novel: indents first lines removes space between paragraphs.",
 	"author": "meljadyn",
