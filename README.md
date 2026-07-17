@@ -1,68 +1,26 @@
 # Pretty Paragraphs
 
-> [!IMPORTANT]
-> This plugin is still in a period of rapid development and potentially breaking changes.
+![](assets/pretty-paragraphs.png)
 
-**Pretty Paragraphs** is an Obsidian plugin designed to bring professional manuscript-style typography to your notes. By default, Markdown uses vertical spacing to separate paragraphs. This plugin replaces that with traditional **first-line indentation**, giving your writing the look and feel of a printed book.
+**Pretty Paragraphs** is designed to bring a novel-like look to your notes with traditional first-line indentation, all while still enforcing good markdown habits.
 
-It is perfect for novelists, essayists, or anyone who prefers a cleaner, book-like aesthetic for their long-form writing.
-
----
-
-## 🛠 Features
-
-- **Manuscript Formatting:** Automatically applies 2em first-line indents and removes the default vertical paragraph spacing.
-- **Editor & Reader Support:** Enjoy the look in both Obsidian's Live Preview (Editor) and Reading View.
-- **Granular Control:** Toggle formatting for specific views (Reader only, Editor only, or both) to suit your workflow.
-- **Folder Whitelisting:** Define specific directories where the formatting should apply, keeping your "work" folders distinct from your daily technical notes.
-- **Justification:** Optional text justification for that perfectly blocked, professional layout.
-- **Novel-Friendly Keybinds:** Includes optional "Double Enter" behavior—press `Enter` for a new paragraph (double newline) or `Shift+Enter` for a soft line break.
+Enforcing good markdown habits, this plugin is designed so that a single-enter creates a new line with no indent, so you will never be confused about whether your paragraphs will be recognized in markdown.
 
 ---
 
-## 📦 How to Install
+## Features / Settings
 
-Since this plugin is not yet in the official Obsidian Community Plugins marketplace, you can install it manually using **BRAT** (Beta Reviewer's Auto-update Tool) or by copying the files directly.
-
-### Option 1: Using BRAT (Recommended)
-
-BRAT is the easiest way to install and update plugins hosted on GitHub.
-
-1. **Install BRAT:** Go to _Settings > Community Plugins > Browse_ and search for "BRAT". Install and enable it.
-2. **Add the Plugin:** \* Open the BRAT settings page.
-
-- Click **"Add Beta plugin"**.
-- Paste the GitHub repository URL - https://github.com/meljadyn/obsidian-pretty-paragraphs.
-- Click **"Add Plugin"**.
-
-3. **Update:** BRAT will now handle the installation and check for updates automatically.
-
-### Option 2: Manual Installation
-
-1. Download the latest release ZIP file from your GitHub repository.
-2. Open your Obsidian vault folder in your file explorer.
-3. Navigate to `.obsidian/plugins/`.
-4. Create a new folder named `pretty-paragraphs`.
-5. Extract the contents of the ZIP file into that folder.
-6. Restart Obsidian, go to _Settings > Community Plugins_, and enable **Pretty Paragraphs**.
+- **Indents:** Enjoy beautiful, traditional indents.
+- **Keep Markdown Habits:** A visible difference between line-breaks and paragraph-breaks ensures that you will always create your documents in valid markdown
+- **Choose Your View**: Choose whether you want this new styling to apply in the reader view, editor view, or both!
+- **Justify:** Apply justified typesetting, so your lines go end-to-end across the page
+- **Whitelist:** Selectively apply these styles in the specified folder. Enjoy your novel formatting without ruining your daily notes.
+- **Adjust:** Change the indent size by using the Style Settings plugin in conjunction with this one.
 
 ---
 
-## ⚙️ Usage
+## Recommendations
 
-Once enabled, head to the **Pretty Paragraphs** settings tab to configure your experience:
-
-- **Apply formatting to:** Choose if you want the formatting applied in Reading View, Editing View, or both.
-- **Whitelisted folders:** Enter the names of the folders you want to format (separated by commas). If left blank, it applies to your entire vault.
-- **Justify text:** Enable this for fully justified text alignment.
-- **Double enter mode:** Enable this to change standard `Enter` behavior to insert double newlines, facilitating easier paragraph breaks.
-
----
-
-## 💡 Why use this?
-
-Markdown is built for the web, but long-form writing feels more natural when it mimics print. By using **Pretty Paragraphs**, you can focus on your prose without being distracted by large, empty vertical gaps, helping you maintain "flow" and immersion while drafting.
-
----
+This plugin pairs great with [Paragraph Break](https://community.obsidian.md/plugins/paragraph-break) by Mateusz Nitka, which will create new paragraphs with a single-enter rather than a double-enter.
 
 _Found a bug or have a feature request? Please feel free to open an issue in the GitHub repository!_
